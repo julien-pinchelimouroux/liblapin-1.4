@@ -1,0 +1,1320 @@
+
+<!-- saved from url=(0062)https://cdn.local.epitech.eu/elearning/B-MUL-051/doc_lapin.htm -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+		<link href="./doc_lapin_files/style.css" rel="stylesheet" type="text/css">
+		<style>
+body
+{
+	background-color: black;
+}
+
+.medium_box
+{
+	margin-left: 25%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-image: url("../top.png");
+	color: gray;
+	width: 50%;
+	padding: 20px 20px 20px 20px;
+}
+
+.medium_box p
+{
+	color: white;
+}
+
+.medium_box h1, .medium_box h2
+{
+	font-family: _futura;
+}
+
+.medium_box a
+{
+	font-family: _futura;
+	text-decoration: none;
+	color: gray;
+}
+
+.medium_box a:hover
+{
+	color: white;
+}
+
+.type
+{
+	color: green;
+}
+
+.funcname
+{
+	color: lightblue;
+	font-weight: bold;
+}
+
+.var
+{
+	color: yellow;
+}
+
+.specifier
+{
+	color: teal;
+	font-weight: bold;
+}
+
+.namespace
+{
+	color: purple;
+}
+
+.medium_box .prototype
+{
+	padding-left: 5%;
+}
+
+.goup
+{
+	font-size: x-large;
+	text-align: center;
+}
+
+.fulltext
+{
+	text-indent: 2em;
+	text-align: justify;
+}
+
+.tab
+{
+	margin-left: 1.5em;
+}
+
+@font-face
+{
+	font-family: "_futura";
+	src: url('?'),
+		 url("futura-normal.ttf") format("truetype")
+	;
+}
+
+body
+{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	background-image: url("back.png");
+	overflow-y: scroll;
+}
+
+.link, .link a, .formular label
+{
+	font-family: _futura;
+	color: gray;
+	text-decoration: none;
+}
+
+.link:hover, .link a:hover
+{
+	color: white;
+}
+
+#topbar
+{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 50px;
+	background-image: url("topbar.png");
+	background-repeat: both;
+	z-index: 1;
+}
+
+#logo_title
+{
+	z-index: 1;
+	float: left;
+	width: 50px;
+	height: 50px;
+	background-image: url("title.png");
+	background-repeat: no-repeat;
+	background-position: left;
+}
+
+#logo_title p
+{
+	position: absolute;
+	top: -20px;
+	left: 60px;
+	font-family: _futura;
+	color: gray;
+	font-size: 30px;
+}
+
+#errbox
+{
+	font-family: _futura;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	height: 30px;
+	font-size: 30px;
+	text-align: center;
+	background-color: red;
+	color: white;
+}
+
+#footer p
+{
+	text-align: center;
+	position: relative;
+	top: 0px;
+	font-family: _futura;
+	color: gray;
+	font-size: 20px;
+}
+
+#logbox
+{
+	z-index: 1;
+	float: right;
+	width: 400px;
+}
+
+#logbox p
+{
+	width: 340px;
+	text-align: right;
+	font-family: _futura;
+	font-size: 20px;
+	color: gray;
+	position: relative;
+	top: -5px;
+}
+
+#logout
+{
+	float: right;
+}
+
+#logout input
+{
+	background-color: black;
+	color: white;
+	border-style: solid;
+	border-width: 1px;
+	border-color: grey;
+	margin-right: 5px;
+	position: relative;
+	top: -47px;
+}
+
+.formentry
+{
+	float: left;
+	width: 70px;
+	position: relative;
+	top: 15px;
+	background-color: black;
+	color: white;
+	border-style: solid;
+	border-width: 1px;
+	border-color: grey;
+	margin-right: 5px;
+}
+
+#menu
+{
+	width: 700px;
+	position: relative;
+	top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.button
+{
+	float: left;
+	width: 150px;
+	text-align: center;
+}
+.button a
+{
+	font-family: _futura;
+	color: gray;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+.button a:hover
+{
+	color: white;
+}
+
+#footer
+{
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	height: 50px;
+	background-repeat: both;
+	background-image: url("bottombar.png");
+}
+
+#article
+{
+	margin-top: 50px;
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+.avatar
+{
+	float: right;
+	padding-left: 20px;
+	padding-bottom: 10px;
+}
+
+#bottom_fill
+{
+	float: left;
+	height: 50px;
+	width: 100%;
+}
+
+		</style>
+	<style type="text/css"></style></head>
+	<body>
+
+<div class="medium_box" style="text-align: center;" name="top">
+	<h1>Manuel</h1>
+</div>
+<div class="medium_box">
+	<ul>
+		<li><a href="https://cdn.local.epitech.eu/elearning/B-MUL-051/doc_lapin.htm#compile">Installer la bibliothèque et compiler avec</a></li>
+		<li><a href="https://cdn.local.epitech.eu/elearning/B-MUL-051/doc_lapin.htm#win">Gestion de la fenêtre</a>
+			<ul>
+				<li><a href="https://cdn.local.epitech.eu/elearning/B-MUL-051/doc_lapin.htm#bunny_start">Ouvrir la fenêtre</a></li>
+				<li><a href="https://cdn.local.epitech.eu/elearning/B-MUL-051/doc_lapin.htm#bunny_stop">Femer la fenêtre</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="https://cdn.local.epitech.eu/elearning/B-MUL-051/doc_lapin.htm#gfx">Graphisme</a>
+			<ul>
+				<li><a href="https://cdn.local.epitech.eu/elearning/B-MUL-051/doc_lapin.htm#bunny_new_pixelarray">Créer une image à accès manuel</a></li>
+				<li><a href="https://cdn.local.epitech.eu/elearning/B-MUL-051/doc_lapin.htm#bunny_new_picture">Créer une image à accès restreint</a></li>
+				<li><a href="https://cdn.local.epitech.eu/elearning/B-MUL-051/doc_lapin.htm#bunny_load_picture">Charger un fichier image</a></li>
+				<li><a href="https://cdn.local.epitech.eu/elearning/B-MUL-051/doc_lapin.htm#bunny_delete_clipable">Supprimer une image</a></li>
+				<li><a href="https://cdn.local.epitech.eu/elearning/B-MUL-051/doc_lapin.htm#bunny_blit">Dessiner une image sur une autre ou sur la fenêtre</a></li>
+				<li><a href="https://cdn.local.epitech.eu/elearning/B-MUL-051/doc_lapin.htm#bunny_display">Afficher le contenu de la fenêtre</a></li>
+				<li><a href="https://cdn.local.epitech.eu/elearning/B-MUL-051/doc_lapin.htm#bunny_draw">Calculer les dessins fait sur une image à accès restreint</a></li>
+				<li><a href="https://cdn.local.epitech.eu/elearning/B-MUL-051/doc_lapin.htm#bunny_set_pixel">Dessiner un pixel dans une image</a></li>
+				<li><a href="https://cdn.local.epitech.eu/elearning/B-MUL-051/doc_lapin.htm#bunny_set_line">Dessiner une ligne dans une image</a></li>
+				<li><a href="https://cdn.local.epitech.eu/elearning/B-MUL-051/doc_lapin.htm#bunny_set_polygon">Dessiner un polygone dans une image</a></li>
+				<li><a href="https://cdn.local.epitech.eu/elearning/B-MUL-051/doc_lapin.htm#bunny_fill">Appliquer une couleur à une zone d'image à accès restreint ou la fenêtre</a></li>
+				<li><a href="https://cdn.local.epitech.eu/elearning/B-MUL-051/doc_lapin.htm#bunny_clear">Remplir d'une couleur une zone d'image à accès restreint ou la fenêtre</a></li>
+			</ul>
+		</li>
+		<li><a href="https://cdn.local.epitech.eu/elearning/B-MUL-051/doc_lapin.htm#evt">Evénement</a>
+			<ul>
+				<li><a href="https://cdn.local.epitech.eu/elearning/B-MUL-051/doc_lapin.htm#bunny_set_key_response">Définir une réaction à une utilisation du clavier</a></li>
+				<li><a href="https://cdn.local.epitech.eu/elearning/B-MUL-051/doc_lapin.htm#bunny_set_click_response">Définir une réaction à une utilisation des boutons de souris</a></li>
+				<li><a href="https://cdn.local.epitech.eu/elearning/B-MUL-051/doc_lapin.htm#bunny_set_move_response">Définir une réaction à un déplacement de la souris</a></li>
+				<li><a href="https://cdn.local.epitech.eu/elearning/B-MUL-051/doc_lapin.htm#bunny_set_loop_main_function">Définir une réaction à l'écoulement du temps</a></li>
+				<li><a href="https://cdn.local.epitech.eu/elearning/B-MUL-051/doc_lapin.htm#bunny_loop">Lancer la gestion du temps et des événements</a></li>
+				<li><a href="https://cdn.local.epitech.eu/elearning/B-MUL-051/doc_lapin.htm#bunny_get_mouse_position">Obtenir la position de la souris</a></li>
+				<li><a href="https://cdn.local.epitech.eu/elearning/B-MUL-051/doc_lapin.htm#bunny_get_mouse_button">Obtenir l'état des boutons de la souris</a></li>
+				<li><a href="https://cdn.local.epitech.eu/elearning/B-MUL-051/doc_lapin.htm#bunny_get_keyboard">Obtenir l'état des touches du clavier</a></li>
+			</ul>
+		</li>
+		<!--li><a href="#snd">Son</a></li>
+		<li><a href="#cnf">Script</a></li-->
+	</ul>
+</div>
+<div class="medium_box" id="win" style="text-align: center; overflow: hidden;">
+	<h2 id="compile" style="font-size: xx-large;">Installer la bibliothèque et compiler avec</h2>
+	<p style="text-align: left;">
+	  Vous trouverez l'archive contenant la LibLapin sur l'e-learning, a proximité de cette documentation.<br>
+	  Vous disposez de deux methodes pour installer la LibLapin: une installation réelle ou une fausse installation.<br>
+	  <br>
+	  La premiere methode passe par le fichier de script real_install.sh et neccessite d'être root. Il suffit de l'executer
+	  avec les droits administrateurs pour lancer l'installation.<br>
+	  <br>
+	  La second methode, passant par fake_install.sh permet de créer un dossier de reference situé dans votre dossier principal, ainsi que deux
+	  dossiers à l'interieur formant ~/.froot/lib et ~/.froot/include. Le script vous demandera d'ajouter à votre fichier de configuration
+	  de shell (.shrc, .tcshrc, .bashrc, .zshrc ou .kshrc en fonction de votre shell. Par defaut, sur vos machines, vous utilisez bash et donc le fichier .bashrc)
+	  trois lignes de script permettant de lier avec ces dossiers comme si ils étaient des dossiers de bibliothèque du système.<br>
+	  <br>
+	  Pour compiler l'un de vos programmes avec la LibLapin, ajoutez à votre ligne de compilation:<br>
+	  -lsfml-audio -lsfml-graphics -lsfml-window -lsfml-system -lstdc++ -ldl -lm
+	</p>
+</div>
+<div class="medium_box" id="win" style="text-align: center; overflow: hidden;">
+	<h2 style="font-size: xx-large;">Gestion de la fenêtre</h2>
+</div>
+<div class="medium_box" id="bunny_start">
+	<h2>Ouvrir la fenêtre</h2>
+	<p class="prototype">C:<br>
+		<span class="type">t_bunny_window</span>
+		*<span class="funcname">bunny_start</span>(<span class="type">unsigned int</span> <span class="var">width</span>,
+		<span class="type">unsigned int</span> <span class="var">height</span>,
+		<span class="type">bool</span> <span class="var">fullscreen</span>,
+		<span class="specifier">const </span> <span class="type">char</span> *<span class="var">window_name</span>);
+	</p>
+	<p class="prototype">C++:<br>
+		<span class="namespace">Bunny</span>::<span class="type">Window</span>
+		*<span class="namespace">Bunny</span>::<span class="funcname">Start</span>(<span class="type">unsigned int</span> <span class="var">width</span>,
+		<span class="type">unsigned int</span> <span class="var">height</span>,
+		<span class="type">bool</span> <span class="var">fullscreen</span>,
+		<span class="specifier">const </span> <span class="type">char</span> *<span class="var">window_name</span>);
+	</p>
+	<h3 class="funcname">Résumé</h3>
+	<p class="fulltext">
+		Cette fonction ouvre une fenêtre et en retourne le pointeur.
+	</p>
+	<p class="fulltext" style="color: red">
+		La mémoire retournée doit être liberée par la fonction <a href="https://cdn.local.epitech.eu/elearning/B-MUL-051/doc_lapin.htm#bunny_stop"><span class="funcname">bunny_stop</span></a>.
+	</p>
+	<h3 class="funcname">Paramètres</h3>
+	<p class="fulltext">
+		La largeur de celle-ci est de <span class="var">width</span> pixels de largeur et de <span class="var">height</span> pixels de haut.
+		Le paramètre <span class="var">fullscreen</span> permet d'ouvrir la fenêtre en plein écran si différent de 0. Les symboles <span class="namespace">true</span>
+		et <span class="namespace">false</span> peuvent être employé dans un soucis de clarté.
+		Le paramètre <span class="var">window_name</span> permet de spécifier le nom de la fenêtre. Ce nom apparait en haut de la fenêtre, mais aussi dans l'éventuelle
+		barre de tâches de votre système.
+	</p>
+	<span id="bunny_buffer"></span>
+	<h3 class="funcname">Valeurs de retour</h3>
+	<p class="fulltext">
+		Le type <span class="type">t_bunny_window</span> ou <span class="namespace">Bunny</span>::<span class="type">Window</span> en C++ est une structure dont la définition est la suivante:<br>
+	</p>
+	<ul>
+		<li><span class="type">t_bunny_buffer</span> ou <span class="namespace">Bunny</span>::<span class="type">Buffer</span> <span class="var">buffer</span>;</li>
+		<li><span class="specifier">const </span> <span class="type">char</span> *<span class="var">name</span>;</li>
+	</ul>
+	<p class="fulltext">
+		Considérant que le type <span class="type">t_bunny_buffer</span> ou <span class="namespace">Bunny</span>::<span class="type">Buffer</span> en C++ est une structure dont la définition est la suivante:<br>
+	</p>
+	<ul>
+		<li><span class="specifier">const </span> <span class="type">char</span> <span class="var">_private</span>[2 * <span class="specifier">sizeof</span>(<span class="type">size_t</span>)];</li>
+		<li><span class="type">unsigned int</span> <span class="var">width</span>;</li>
+		<li><span class="type">unsigned int</span> <span class="var">height</span>;</li>
+	</ul>
+	<p class="fulltext">
+		Le champ <span class="var">_private</span> ne doit pas être modifié et ne le peut à priori pas l'être sans manipulation spécifique. Il contient des données
+		utilisés par la LibLapin. Les champs <span class="var">width</span> et <span class="var">height</span> sont, respectivement, la largeur et la hauteur du <i>buffer graphique</i>. Dans le cas présent,
+		il s'agit des pixels de la fenêtre.
+	</p>
+	<p class="goup">
+		<a href="https://cdn.local.epitech.eu/elearning/B-MUL-051/doc_lapin.htm#top">Remonter</a>
+	</p>
+</div>
+
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+<div class="medium_box" id="bunny_stop">
+	<h2>Fermer la fenêtre</h2>
+	<p class="prototype">C:<br>
+		<span class="type">void</span>
+		<span class="funcname">bunny_stop</span>(<span class="type">t_bunny_window</span> *<span class="var">win</span>);
+	</p>
+	<p class="prototype">C++:<br>
+		<span class="type">void</span>
+		<span class="namespace">Bunny</span>::<span class="funcname">Stop</span>(<span class="namespace">Bunny</span>::<span class="type">Window</span> *<span class="var">win</span>);
+	</p>
+	<h3 class="funcname">Résumé</h3>
+	<p class="fulltext">
+		Cette fonction ferme la fenêtre passée en paramètre.
+	</p>
+	<p class="goup">
+		<a href="https://cdn.local.epitech.eu/elearning/B-MUL-051/doc_lapin.htm#top">Remonter</a>
+	</p>
+</div>
+
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+<div class="medium_box" id="gfx" style="text-align: center;">
+	<h2 style="font-size: xx-large;">Graphisme</h2>
+</div>
+<div class="medium_box" id="bunny_new_pixelarray">
+	<h2>Créer une image à accès manuel</h2>
+	<p class="prototype">C:<br>
+		<span class="type">t_bunny_pixelarray</span>
+		*<span class="funcname">bunny_new_pixelarray</span>(<span class="type">unsigned int</span> <span class="var">width</span>,
+		<span class="type">unsigned int</span> <span class="var">height</span>);
+	</p>
+	<p class="prototype">C++:<br>
+		<span class="namespace">Bunny</span>::<span class="type">PixelArray</span>
+		*<span class="namespace">Bunny</span>::<span class="funcname">NewPixelArray</span>(<span class="type">unsigned int</span> <span class="var">width</span>,
+		<span class="type">unsigned int</span> <span class="var">height</span>);
+	</p>
+	<h3 class="funcname">Résumé</h3>
+	<p class="fulltext">
+		Cette fonction créée un tableau de pixel dans la mémoire centrale. De ce fait, celle-ci peut-être accédée directement par votre programme sous
+		la forme d'un tableau. En contrepartie, celle-ci est plus lente que les images créées dans la mémoire de la carte graphique.
+	</p>
+	<p class="fulltext" style="color: red">
+		La mémoire retournée doit être liberée par la fonction <a href="https://cdn.local.epitech.eu/elearning/B-MUL-051/doc_lapin.htm#bunny_delete_clipable"><span class="funcname">bunny_delete_clipable</span></a>.
+	</p>
+	<h3 class="funcname">Paramètres</h3>
+	<p class="fulltext">
+		La largeur de l'espace mémoire, en pixels, est de <span class="var">width</span> pixels de largeur et de <span class="var">height</span> pixels de haut.
+		Un pixel occupe 32 bits. Le type <span class="type">t_color</span> ou <span class="namespace">Bunny</span>::<span class="">Color</span> est une <span class="specifier">union</span>
+		contenant:
+	</p>
+	<ul>
+		<li><span class="type">unsigned int</span> <span class="var">full</span>;</li>
+		<li><span class="type">char</span> <span class="var">argb</span>[4];</li>
+	</ul>
+	<p class="fulltext">
+		Le champ <span class="var">argb</span>[4] est constitué des 4 composantes du pixel: du <span style="color: red">rouge</span>, du <span style="color: green">vert</span>, du
+		<span style="color: blue;">bleu</span> ainsi que de l'opacité nommée alpha. Afin de faciliter l'accès à ces composantes, l'énumération
+		<span class="type">t_rgb</span> ou <span class="namespace">Bunny</span>::<span class="type">RGB</span> met en place une série de symboles:
+	</p>
+	<ul>
+		<li><span class="var">RED_CMP</span> pour la composante rouge.</li>
+		<li><span class="var">GREEN_CMP</span> pour la composante verte.</li>
+		<li><span class="var">BLUE_CMP</span> pour la composante bleue.</li>
+		<li><span class="var">ALPHA_CMP</span> pour l'opacité.</li>
+	</ul>
+	<p class="fulltext" style="color: red">
+		Une opacité de 0 signifie que le pixel est complètement transparent. Une valeur de 255 signifie une opacité complète.
+	</p>
+	<h3 class="funcname">Valeurs de retour</h3>
+	<p class="fulltext">
+		Cette fonction retourne un pointeur sur une structure de type <span class="type">t_bunny_pixelarray</span>. En cas d'échec, elle retourne <span class="namespace">NULL</span>.
+		Le type <span class="type">t_bunny_pixelarray</span> ou <span class="namespace">Bunny</span>::<span class="type">PixelArray</span> en C++ est une structure.
+		Sa définition est la suivante:
+	</p>
+	<ul>
+		<li><span class="type">t_bunny_clipable</span> ou <span class="namespace">Bunny</span>::<span class="type">Clipable</span> <span class="var">clipable</span>;</li>
+		<li><span class="type">void</span> *<span class="var">pixels</span>;</li>
+	</ul>
+	<span id="bunny_clipable"></span>
+	<p class="fulltext">
+		Le champ <span class="var">pixels</span> est un pointeur vers l'image elle-même. Il n'existe aucune fonction dans la LibLapin permettant de faciliter l'ecriture
+		de pixels dans un champ manuel: ce travail est à la charge des étudiants. Concernant le formatage de ces pixels, il respecte le format <span class="type">t_color</span>
+		et fait une longueur &amp;eagute;gale à <span class="var">width</span> multiplié par <span class="var">height</span>.
+	</p>
+	<p class="fulltext">
+		Le champ <span class="var">clipable</span>, du type <span class="type">t_bunny_clipable</span> ou <span class="namespace">Bunny</span>::<span class="type">Clipable</span> est composé
+		des champs suivants:
+	</p>
+	<ul>
+		<li><span class="type">t_bunny_buffer</span> ou <span class="namespace">Bunny</span>::<span class="type">Buffer</span> <span class="var">buffer</span>;</li>
+		<li><span class="type">int</span> <span class="var">clip_x_position</span>;</li>
+		<li><span class="type">int</span> <span class="var">clip_y_position</span>;</li>
+		<li><span class="type">unsigned int</span> <span class="var">clip_width</span>;</li>
+		<li><span class="type">unsigned int</span> <span class="var">clip_height</span>;</li>
+	</ul>
+	<p class="fulltext">
+		Des détails sur le type du champ <span class="var">buffer</span> peuvent être trouvé <a href="https://cdn.local.epitech.eu/elearning/B-MUL-051/doc_lapin.htm#bunny_buffer">ici</a>.
+	</p>
+	<p class="fulltext">
+		Les champs <span class="var">clip_x_position</span> et <span class="var">clip_y_position</span> détermine la position de la portion de l'image affichable
+		lors d'un appel à la fonction <a href="https://cdn.local.epitech.eu/elearning/B-MUL-051/bunny_blit"><span class="funcname">bunny_blit</span></a>. La portion affichable mesure <span class="var">clip_width</span> pixels
+		de largeur et <span class="var">clip_height</span> pixels de haut.
+	</p>
+	<p class="goup">
+		<a href="https://cdn.local.epitech.eu/elearning/B-MUL-051/doc_lapin.htm#top">Remonter</a>
+	</p>
+</div>
+
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+<div class="medium_box" id="bunny_new_picture">
+	<h2>Créer une image à accès restreint</h2>
+	<p class="prototype">C:<br>
+		<span class="type">t_bunny_picture</span>
+		*<span class="funcname">bunny_new_picture</span>(<span class="type">unsigned int</span> <span class="var">width</span>,
+		<span class="type">unsigned int</span> <span class="var">height</span>);
+	</p>
+	<p class="prototype">C++:<br>
+		<span class="namespace">Bunny</span>::<span class="type">Picture</span>
+		*<span class="namespace">Bunny</span>::<span class="funcname">NewPicture</span>(<span class="type">unsigned int</span> <span class="var">width</span>,
+		<span class="type">unsigned int</span> <span class="var">height</span>);
+	</p>
+	<h3 class="funcname">Résumé</h3>
+	<p class="fulltext">
+		Cette fonction créée un tableau de pixel dans la mémoire graphique. De ce fait, celle-ci profite d'une vitesse d'affichage extremement élevée
+		mais est plus difficile d'accès. Attention, dessiner pixel à pixel de la même façon qu'avec un buffer à
+		accès manuel est beaucoup plus lent sur ce type d'image. Ce format d'image sert typiquement à afficher des images chargées depuis le disque dur ou des
+		formes préfaites. En pratique, 99% des images sont de ce type.
+	</p>
+	<p class="fulltext">
+		Les dessins fait sur une surface de ce type néccessitent pour être affiché un appel à la fonction <a href="https://cdn.local.epitech.eu/elearning/B-MUL-051/bunny_draw"><span class="funcname">bunny_draw</span></a>.
+	</p>
+	<p class="fulltext" style="color: red">
+		La mémoire retournée doit être liberée par la fonction <a href="https://cdn.local.epitech.eu/elearning/B-MUL-051/doc_lapin.htm#bunny_delete_clipable"><span class="funcname">bunny_delete_clipable</span></a>.
+	</p>
+	<p class="fulltext">
+		<span style="font-weight: bold;">Le set de fonctions servant à dessiner dans cette catégorie d'image est interdit sans
+		validation préalable.</span>.  
+	</p>
+	<h3 class="funcname">Paramètres</h3>
+	<p class="fulltext">
+		La largeur de l'espace mémoire, en pixels, est de <span class="var">width</span> pixels de largeur et de <span class="var">height</span> pixels de haut.
+	</p>
+	<h3 class="funcname">Valeurs de retour</h3>
+	<p class="fulltext">
+		Cette fonction retourne un pointeur sur une structure de type <span class="type">t_bunny_picture</span> ou <span class="namespace">Bunny</span>::<span class="type">Picture</span>,
+		qui est un <span class="specifier">typedef</span> sur le type <a href="https://cdn.local.epitech.eu/elearning/B-MUL-051/doc_lapin.htm#bunny_clipable"><span class="type">t_bunny_clipable</span></a>. En cas d'échec, elle retourne <span class="namespace">NULL</span>.
+	</p>
+	<p class="goup">
+		<a href="https://cdn.local.epitech.eu/elearning/B-MUL-051/doc_lapin.htm#top">Remonter</a>
+	</p>
+</div>
+
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+<div class="medium_box" id="bunny_load_picture">
+	<h2>Charger un fichier image</h2>
+	<p class="prototype">C:<br>
+		<span class="type">t_bunny_picture</span>
+		*<span class="funcname">bunny_load_picture</span>(<span class="specifier">const</span> <span class="type">char</span> *<span class="var">file_path</span>);
+	</p>
+	<p class="prototype">C++:<br>
+		<span class="namespace">Bunny</span>::<span class="type">Picture</span>
+		*<span class="namespace">Bunny</span>::<span class="funcname">LoadPicture</span>(<span class="specifier">const</span> <span class="type">char</span> *<span class="var">file_path</span>);
+	</p>
+	<h3 class="funcname">Résumé</h3>
+	<p class="fulltext">
+		Cette fonction créée un tableau de pixel dans la mémoire graphique et y charge le contenu du fichier image dont l'adresse dans le système de fichier
+		est passée en param`tre. Les formats supportés sont bmp, png, tga, jpg, gif, psd, hdr and pic. Certains formats plus précis comme les jpeg progressifs ne le sont pas.
+		<b>Cette fonction est interdite sans validation pédagogique: vous devez d'abord l'avoir recodé pour pouvoir vous en servir.</b>
+	</p>
+	<p class="fulltext" style="color: red">
+		La mémoire retournée doit être liberée par la fonction <a href="https://cdn.local.epitech.eu/elearning/B-MUL-051/doc_lapin.htm#bunny_delete_clipable"><span class="funcname">bunny_delete_clipable</span></a>.
+	</p>
+	<h3 class="funcname">Paramètres</h3>
+	<p class="fulltext">
+		Le paramètre <span class="var">file_path</span> est l'adresse du fichier à charger. Faites attention à celle-ci ! Ces adresses sont-elles relatives ou absolues?
+		Si elles sont relatives, à partir de quoi le sont-elles? Comment faire pour que ce lien soit valide, même si je lance mon programme depuis n'importe où? Indice: argv[0].
+	</p>
+	<h3 class="funcname">Valeurs de retour</h3>
+	<p class="fulltext">
+		Cette fonction retourne un pointeur sur une structure de type <span class="type">t_bunny_picture</span> ou <span class="namespace">Bunny</span>::<span class="type">Picture</span>,
+		qui est un <span class="specifier">typedef</span> sur le type <a href="https://cdn.local.epitech.eu/elearning/B-MUL-051/doc_lapin.htm#bunny_clipable"><span class="type">t_bunny_clipable</span></a>. En cas d'échec, elle retourne <span class="namespace">NULL</span>.
+	</p>
+	<p class="goup">
+		<a href="https://cdn.local.epitech.eu/elearning/B-MUL-051/doc_lapin.htm#top">Remonter</a>
+	</p>
+</div>
+
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+<div class="medium_box" id="bunny_delete_clipable">
+	<h2>Supprimer une image</h2>
+	<p class="prototype">C:<br>
+		<span class="type">void</span>
+		<span class="funcname">bunny_delete_clipable</span>(<span class="type">t_bunny_clipable</span> *<span class="var">img</span>);
+	</p>
+	<p class="prototype">C++:<br>
+		<span class="type">void</span>
+		<span class="namespace">Bunny</span>::<span class="funcname">DeleteClipable</span>(<span class="namespace">Bunny</span>::<span class="type">Clipable</span> *<span class="var">img</span>);
+	</p>
+	<h3 class="funcname">Résumé</h3>
+	<p class="fulltext">
+		Cette fonction détruit l'image passée en paramètre.
+	</p>
+	<h3 class="funcname">Paramètres</h3>
+	<p class="fulltext">
+		<span class="var">img</span> est un pointeur vers l'image à détruire.
+	</p>
+	<h3 class="funcname">Exemple</h3>
+	<ul>
+		<li><span class="type">t_bunny_picture</span> *<span class="var">pic</span> = bunny_new_picture(800, 600);</li>
+		<li><span class="type">t_bunny_pixelarray</span> *<span class="var">pix</span> = bunny_new_pixelarray(800, 600);</li>
+		<li></li>
+		<li>bunny_delete_clipable(pic); <span style="color: red;">// Supprime pic</span></li>
+		<li>bunny_delete_clipable(&amp;pix-&gt;clipable); <span style="color: red;">// Supprime pix</span></li>
+	</ul>
+	<p class="goup">
+		<a href="https://cdn.local.epitech.eu/elearning/B-MUL-051/doc_lapin.htm#top">Remonter</a>
+	</p>
+</div>
+
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+<div class="medium_box" id="bunny_blit">
+	<h2>Dessiner une image sur une autre ou sur la fenêtre</h2>
+	<p class="prototype">C:<br>
+		<span class="type">void</span>
+		<span class="funcname">bunny_blit</span>(<span class="type">t_bunny_buffer</span> *<span class="var">destination</span>,
+												 <span class="specifier">const</span> <span class="type">t_bunny_clipable</span> *<span class="var">source</span>,
+												 <span class="type">t_bunny_position</span> *<span class="var">pos</span>);
+	</p>
+	<p class="prototype">C++:<br>
+		<span class="type">void</span>
+		<span class="namespace">Bunny</span>::<span class="funcname">Blit</span>(<span class="namespace">Bunny</span>::<span class="type">Buffer</span> *<span class="var">destination</span>,
+												 <span class="specifier">const</span> <span class="namespace">Bunny</span>::<span class="type">Clipable</span> *<span class="var">source</span>,
+												 <span class="namespace">Bunny</span>::<span class="type">Position</span> <span class="var">pos</span>);
+	</p>
+	<h3 class="funcname">Résumé</h3>
+	<p class="fulltext">
+		Cette fonction dessine une fraction de l'image <span class="var">source</span> (La fraction determiné par ses champs <span class="var">clip_x_position</span>,
+		<span class="var">clip_y_position</span>, <span class="var">clip_width</span> et <span class="var">clip_height</span>)
+		à la position précisée par <span class="var">pos</span> dans le buffer graphique <span class="var">destination</span>. La transparence de certains pixel
+		est respecté et les effets associés sont appliqués.
+	</p>
+	<p class="fulltext">
+		Il est évidemment beaucoup plus rapide d'effectuer des opérations sur des images à accès restreint du fait que les opérations néccessaires
+		seront calculées par la carte graphique et non par le processeur central. La difference se chiffre en milliers de fois plus rapide.
+	</p>
+	<p class="fulltext">
+		Les opéreations de dessins entre image à accès manuel sont impossibles si le pointeur <span class="var">gl_bunny_my_blit</span> n'a pas reçu
+		l'adresse d'une fonction prenant en charge l'opération.
+	</p>
+	<h3 class="funcname">Paramètres</h3>
+	<p class="fulltext">
+		Le paramètre <span class="var">destination</span> est un pointeur vers un buffer graphique où seront copiés les pixels demandés depuis <span class="var">source</span>.
+		Ce paramètre <span class="var">destination</span> étant un <span class="type">t_bunny_buffer</span>, il est compatible avec tous les types de buffer graphique générés:
+		fenêtre, images manuelles ou images restreintes.
+		Le paramètre <span class="var">source</span> est un pointeur vers un buffer graphique d'où les pixels vont être tirés. La zone dont sera tiré les pixels
+		est définie grâce aux champs <span class="var">clip_x_position</span>, <span class="var">clip_y_position</span>, <span class="var">clip_width</span> et <span class="var">clip_height</span>
+		de <span class="var">source</span>. Plus d'informations sur la structure t_bunny_clipable <a href="https://cdn.local.epitech.eu/elearning/B-MUL-051/doc_lapin.htm#bunny_clipable">ici</a>. Le paramètre <span class="var">pos</span> est un pointeur sur une
+		structure contenant deux champs <span class="var">x</span> et <span class="var">y</span> déterminant la position du la zone à afficher dans l'image <span class="var">destination</span>.
+		Si le paramètre <span class="var">pos</span> vaut <span class="namespace">NULL</span>, la destination est la position 0, 0.
+	</p>
+	<h3 class="funcname">Exemple</h3>
+	<ul>
+		<li><span class="type">t_bunny_window</span> *<span class="var">win</span> = bunny_start(800, 600, <span class="namespace">false</span>, <span style="color: green;">"longhorn"</span>);</li>
+		<li><span class="type">t_bunny_picture</span> *<span class="var">pic</span> = bunny_new_picture(800, 600);</li>
+		<li><span class="type">t_bunny_pixelarray</span> *<span class="var">pix</span> = bunny_new_pixelarray(800, 600);</li>
+		<li><span class="type">t_bunny_position</span> <span class="var">pos</span>;</li>
+		<li></li>
+		<li>pix-&gt;clipable.clip_x_position = 20;</li>
+		<li>pix-&gt;clipable.clip_y_position = 30;</li>
+		<li>pix-&gt;clipable.clip_width = 50;</li>
+		<li>pix-&gt;clipable.clip_height = 60;</li>
+		<li>pos.x = 200;</li>
+		<li>pos.y = 300;</li>
+		<li>bunny_blit(&amp;pic-&gt;buffer, &amp;pix-&gt;clipable, &amp;pos); <span style="color: red;">// On dessine dans pic à la position (200, 300) la partie de pix entre (20, 30) et (70, 90)</span></li>
+		<li>pic-&gt;clip_x_position = 0;</li>
+		<li>pic-&gt;clip_y_position = 0;</li>
+		<li>pic-&gt;clip_width = 800;</li>
+		<li>pic-&gt;clip_height = 600;</li>
+		<li>bunny_blit(&amp;win-&gt;buffer, pic, &amp;pos); <span style="color: red;">// On dessine tout pic dans win</span></li>
+	</ul>
+	<p class="goup">
+		<a href="https://cdn.local.epitech.eu/elearning/B-MUL-051/doc_lapin.htm#top">Remonter</a>
+	</p>
+</div>
+
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+<div class="medium_box" id="bunny_display">
+	<h2>Afficher le contenu de la fenêtre</h2>
+	<p class="prototype">C:<br>
+		<span class="type">void</span>
+		<span class="funcname">bunny_display</span>(<span class="specifier">const</span> <span class="type">t_bunny_window</span> *<span class="var">win</span>);
+	</p>
+	<p class="prototype">C++:<br>
+		<span class="type">void</span>
+		<span class="namespace">Bunny</span>::<span class="funcname">Blit</span>(<span class="specifier">const</span> <span class="namespace">Bunny</span>::<span class="type">Window</span> *<span class="var">win</span>);
+	</p>
+	<h3 class="funcname">Résumé</h3>
+	<p class="fulltext">
+		Cette fonction affiche le contenu de la fenêtre à l'écran. Cette fonction ne devrait être appellée qu'une seule fois par tour de boucle.
+	</p>
+	<h3 class="funcname">Paramètres</h3>
+	<p class="fulltext">
+		Le paramètre <span class="var">win</span> est un pointeur vers la fenêtre dont on souhaite afficher le contenu.
+	</p>
+	<p class="goup">
+		<a href="https://cdn.local.epitech.eu/elearning/B-MUL-051/doc_lapin.htm#top">Remonter</a>
+	</p>
+</div>
+
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+<div class="medium_box" id="bunny_draw">
+	<h2>Calculer les dessins fait sur une image à accès restreint</h2>
+	<p class="prototype">C:<br>
+		<span class="type">void</span>
+		<span class="funcname">bunny_draw</span>(<span class="specifier">const</span> <span class="type">t_bunny_picture</span> *<span class="var">pic</span>);
+	</p>
+	<p class="prototype">C++:<br>
+		<span class="type">void</span>
+		<span class="namespace">Bunny</span>::<span class="funcname">Draw</span>(<span class="specifier">const</span> <span class="namespace">Bunny</span>::<span class="type">Picture</span> *<span class="var">pic</span>);
+	</p>
+	<h3 class="funcname">Résumé</h3>
+	<p class="fulltext">
+		Cette fonction calcule les opérations de dessins fait sur l'image à accès restreint. Cette opération est néccessaire avant l'utilisation en lecture
+		de l'image par <a href="https://cdn.local.epitech.eu/elearning/B-MUL-051/doc_lapin.htm#bunny_blit"><span class="funcname">bunny_blit</span></a>.
+	</p>
+	<h3 class="funcname">Paramètres</h3>
+	<p class="fulltext">
+		Le paramètre <span class="var">pic</span> est un pointeur vers l'image dont les changements doivent être calculés.
+	</p>
+	<p class="goup">
+		<a href="https://cdn.local.epitech.eu/elearning/B-MUL-051/doc_lapin.htm#top">Remonter</a>
+	</p>
+</div>
+
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+<div class="medium_box" id="bunny_set_pixel">
+	<h2>Dessiner un pixel dans une image à accès restreint ou dans la fenêtre</h2>
+	<p class="prototype">C:<br>
+		<span class="type">void</span>
+		<span class="funcname">bunny_set_pixel</span>(<span class="type">t_bunny_buffer</span> *<span class="var">pic</span>,
+		<span class="type">t_bunny_position</span> <span class="var">pos</span>,
+		<span class="type">unsigned int</span> <span class="var">color</span>);
+	</p>
+	<p class="prototype">C++:<br>
+		<span class="type">void</span>
+		<span class="namespace">Bunny</span>::<span class="funcname">SetPixel</span>(<span class="namespace">Bunny</span>::<span class="type">Buffer</span> *<span class="var">pic</span>,
+		<span class="namespace">Bunny</span>::<span class="type">Position</span> <span class="var">pos</span>,
+		<span class="type">unsigned int</span> <span class="var">color</span>);
+	</p>
+	<h3 class="funcname">Résumé</h3>
+	<p class="fulltext">
+		Cette fonction dessine un pixel dans une image à accès restreint ou dans la fenêtre. <b>Cette fonction est interdite sans validation pédagogique préalable. Pour
+		voir la liste des projets permettant de déverrouiller cette fonction, <a href="https://cdn.local.epitech.eu/elearning/B-MUL-051/index.php?a=2&c=1">rendez-vous sur cette page</a>.</b>
+	</p>
+	<p class="fulltext">
+		Cette fonction ne fonctionne pas sur les images à accès manuel, à moins que le pointeur sur fonction <span class="var">gl_bunny_my_set_pixel
+		n'ai reçu comme valeur l'adresse d'une fonction prenant en charge cette opération.
+	</span></p>
+	<h3 class="funcname">Paramètres</h3>
+	<p class="fulltext">
+		Cette fonction dessine un pixel de la couleur indiqué par <span class="var">color</span> à la position specifié par <span class="var">pos</span> dans l'image
+		à accès restreint ou dans la fenêtre <span class="var">pic</span>.
+	</p>
+	<p class="goup">
+		<a href="https://cdn.local.epitech.eu/elearning/B-MUL-051/doc_lapin.htm#top">Remonter</a>
+	</p>
+</div>
+
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+<div class="medium_box" id="bunny_set_line">
+	<h2>Dessiner une ligne dans une image à accès restreint ou dans la fenêtre</h2>
+	<p class="prototype">C:<br>
+		<span class="type">void</span>
+		<span class="funcname">bunny_set_line</span>(<span class="type">t_bunny_buffer</span> *<span class="var">pic</span>,
+		<span class="type">t_bunny_position</span> *<span class="var">pos</span>,
+		<span class="type">unsigned int</span> *<span class="var">color</span>);
+	</p>
+	<p class="prototype">C++:<br>
+		<span class="type">void</span>
+		<span class="namespace">Bunny</span>::<span class="funcname">SetLine</span>(<span class="namespace">Bunny</span>::<span class="type">Buffer</span> *<span class="var">pic</span>,
+		*<span class="namespace">Bunny</span>::<span class="type">Position</span> *<span class="var">pos</span>,
+		*<span class="type">unsigned int</span> *<span class="var">color</span>);
+	</p>
+	<h3 class="funcname">Résumé</h3>
+	<p class="fulltext">
+		Cette fonction dessine une ligne entre deux points dans une image à accès restreint ou dans la fenêtre. <b>Cette fonction est interdite sans validation pédagogique préalable. Pour
+		voir la liste des projets permettant de déverrouiller cette fonction, <a href="https://cdn.local.epitech.eu/elearning/B-MUL-051/index.php?a=2&c=1">rendez-vous sur cette page</a>.</b>
+	</p>
+	<p class="fulltext">
+		Cette fonction ne fonctionne pas sur les images à accès manuel, à moins que le pointeur sur fonction <span class="var">gl_bunny_my_setline
+		n'ai reçu comme valeur l'adresse d'une fonction prenant en charge cette opération.
+	</span></p>
+	<h3 class="funcname">Paramètres</h3>
+	<p class="fulltext">
+		Cette fonction dessine dans <span class="var">pic</span> une ligne de pixels allant progressivement de la couleur <span class="var">color</span>[0] à la couleur
+		<span class="var">color</span>[1]. Le point d'origine de la ligne est <span class="var">pos</span>[0] et le point d'arrivée <span class="var">pos</span>[1].
+	</p>
+	<p class="goup">
+		<a href="https://cdn.local.epitech.eu/elearning/B-MUL-051/doc_lapin.htm#top">Remonter</a>
+	</p>
+</div>
+
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+<div class="medium_box" id="bunny_set_polygon">
+	<h2>Dessiner un polygone dans une image à accès restreint ou dans la fenêtre</h2>
+	<p class="prototype">C:<br>
+		<span class="type">void</span>
+		<span class="funcname">bunny_set_polygon</span>(<span class="type">t_bunny_buffer</span> *<span class="var">pic</span>,
+		<span class="type">t_bunny_position</span> *<span class="var">pos</span>,
+		<span class="type">unsigned int</span> *<span class="var">color</span>);
+	</p>
+	<p class="prototype">C++:<br>
+		<span class="type">void</span>
+		<span class="namespace">Bunny</span>::<span class="funcname">SetPolygon</span>(<span class="namespace">Bunny</span>::<span class="type">Buffer</span> *<span class="var">pic</span>,
+		*<span class="namespace">Bunny</span>::<span class="type">Position</span> *<span class="var">pos</span>,
+		*<span class="type">unsigned int</span> *<span class="var">color</span>);
+	</p>
+	<h3 class="funcname">Résumé</h3>
+	<p class="fulltext">
+		Cette fonction dessine un triangle entre trois points dans une image à accès restreint ou dans la fenêtre. <b>Cette fonction est interdite sans validation pédagogique préalable. Pour
+		voir la liste des projets permettant de déverrouiller cette fonction, <a href="https://cdn.local.epitech.eu/elearning/B-MUL-051/index.php?a=2&c=1">rendez-vous sur cette page</a>.</b>
+	</p>
+		<p class="fulltext">
+		Cette fonction ne fonctionne pas sur les images à accès manuel, à moins que le pointeur sur fonction <span class="var">gl_bunny_my_set_polygon
+		n'ai reçu comme valeur l'adresse d'une fonction prenant en charge cette opération.
+	</span></p>
+	<h3 class="funcname">Paramètres</h3>
+	<p class="fulltext">
+		Cette fonction dessine dans <span class="var">pic</span> un triangle de pixels dont la couleur est un degradé de trois couleurs.
+		Près du point <span class="var">pos</span>[x], la couleur tend vers la couleur <span class="var">color</span>[x], avec x dans [0; 3[.
+	</p>
+	<p class="goup">
+		<a href="https://cdn.local.epitech.eu/elearning/B-MUL-051/doc_lapin.htm#top">Remonter</a>
+	</p>
+</div>
+
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+<div class="medium_box" id="bunny_fill">
+	<h2>Remplir une zone d'image à accès restreint ou la fenêtre</h2>
+	<p class="prototype">C:<br>
+		<span class="type">void</span>
+		<span class="funcname">bunny_fill</span>(<span class="type">t_bunny_buffer</span> *<span class="var">pic</span>, <span class="type">unsigned int</span> <span class="var">color</span>);
+	</p>
+	<p class="prototype">C++:<br>
+		<span class="type">void</span>
+		<span class="namespace">Bunny</span>::<span class="funcname">Fill</span>(<span class="namespace">Bunny</span>::<span class="type">Buffer</span> *<span class="var">pic</span>,
+		<span class="type">unsigned int</span> <span class="var">color</span>);
+	</p>
+	<h3 class="funcname">Résumé</h3>
+	<p class="fulltext">
+		Cette fonction remplit de couleur une zone dans l'image passé en paramètre. L'opacité est gêrée correctement. <b>Cette fonction est interdite sans validation
+		pédagogique préalable. Pour voir la liste des projets permettant de déverrouiller cette fonction, <a href="https://cdn.local.epitech.eu/elearning/B-MUL-051/index.php?a=2&c=1">rendez-vous sur cette page</a>.</b>
+	</p>
+		<p class="fulltext">
+		Cette fonction ne fonctionne pas sur les images à accès manuel, à moins que le pointeur sur fonction <span class="var">gl_bunny_my_fill
+		n'ai reçu comme valeur l'adresse d'une fonction prenant en charge cette opération.
+	</span></p>
+	<h3 class="funcname">Paramètres</h3>
+	<p class="fulltext">
+		Le paramètre <span class="var">pic</span> est un pointeur vers l'image à traiter. Si cette image est la fenêtre, alors elle est remplie intégralement, sinon
+		seule la zone précisée par <span class="var">clip_x_position</span>, <span class="var">clip_y_position</span>, <span class="var">clip_width</span> et
+		<span class="var">clip_height</span>. Le paramètre <span class="var">color</span> est la couleur à appliquer.
+	</p>
+	<p class="goup">
+		<a href="https://cdn.local.epitech.eu/elearning/B-MUL-051/doc_lapin.htm#top">Remonter</a>
+	</p>
+</div>
+
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+<div class="medium_box" id="bunny_clear">
+	<h2>Remplir entièrement une image à accès restreint ou la fenêtre</h2>
+	<p class="prototype">C:<br>
+		<span class="type">void</span>
+		<span class="funcname">bunny_clear</span>(<span class="type">t_bunny_buffer</span> *<span class="var">pic</span>, <span class="type">unsigned int</span> <span class="var">color</span>);
+	</p>
+	<p class="prototype">C++:<br>
+		<span class="type">void</span>
+		<span class="namespace">Bunny</span>::<span class="funcname">Clear</span>(<span class="namespace">Bunny</span>::<span class="type">Buffer</span> *<span class="var">pic</span>,
+		<span class="type">unsigned int</span> <span class="var">color</span>);
+	</p>
+	<h3 class="funcname">Résumé</h3>
+	<p class="fulltext">
+		Cette fonction remplit l'intégralité de l'image passé en paramètre. L'opacité est ignoré, la couleur passé en paramètre est imposé.
+		<b>Cette fonction est interdite sans validation pédagogique préalable. Pour voir la liste des projets permettant de déverrouiller cette fonction,
+		<a href="https://cdn.local.epitech.eu/elearning/B-MUL-051/index.php?a=2&c=1">rendez-vous sur cette page</a>.</b>
+	</p>
+	<p class="fulltext">
+		Cette fonction ne fonctionne pas sur les images à accès manuel, à moins que le pointeur sur fonction <span class="var">gl_bunny_my_clear
+		n'ai reçu comme valeur l'adresse d'une fonction prenant en charge cette opération.
+	</span></p>
+	<h3 class="funcname">Paramètres</h3>
+	<p class="fulltext">
+		Le paramètre <span class="var">pic</span> est un pointeur vers l'image à traiter. Le paramètre <span class="var">color</span> est la couleur à appliquer.
+	</p>
+	<p class="goup">
+		<a href="https://cdn.local.epitech.eu/elearning/B-MUL-051/doc_lapin.htm#top">Remonter</a>
+	</p>
+</div>
+
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+<div class="medium_box" id="evt" style="text-align: center; overflow: hidden;">
+	<h2 style="font-size: xx-large;">Événements</h2>
+</div>
+
+<div class="medium_box" id="bunny_set_key_response">
+	<h2>Définir une réaction à une utilisation du clavier</h2>
+	<p class="prototype">C:<br>
+		<span class="type">void</span>
+		<span class="funcname">bunny_set_key_response</span>(<span class="type">t_bunny_key</span> <span class="var">callback</span>);
+	</p>
+	<p class="prototype">C++:<br>
+		<span class="type">void</span>
+		<span class="namespace">Bunny</span>::<span class="funcname">SetKeyResponse</span>(<span class="namespace">Bunny</span>::<span class="type">Key</span> <span class="var">callback</span>);
+	</p>
+	<h3 class="funcname">Résumé</h3>
+	<p>
+		<span class="specifier">typedef enum</span> <span class="type">e_bunny_response</span><br>
+		{<br>
+		<span class="tab"><span class="var">EXIT_ON_ERROR</span>,<br>
+		<span class="tab"><span class="var">EXIT_ON_CROSS</span>,<br>
+		<span class="tab"><span class="var">EXIT_ON_SUCCESS</span>,<br>
+		<span class="tab"><span class="var">GO_ON</span><br>
+		} <span class="type">t_bunny_response</span>;<br>
+		<br>
+		<span class="specifier">typedef enum</span> <span class="type">e_bunny_event_state</span><br>
+		{<br>
+		<span class="tab"><span class="var">GO_DOWN</span>,<br>
+		<span class="tab"><span class="var">GO_UP</span><br>
+		} <span class="type">t_bunny_event_state</span>;<br>
+		<br>
+		<span class="specifier">typedef</span> <span class="type">t_bunny_response</span> (*<span class="type">t_bunny_key</span>)(<span class="type">t_bunny_event_state</span> <span class="var">state</span>, <span class="type">t_bunny_keysym</span> <span class="var">key</span>, <span class="type">void</span> *<span class="var">your_data</span>);<br>
+		<br>
+		<span class="specifier">namespace</span> Bunny<br>
+		{<br>
+		<span class="tab"><span class="specifier">typedef</span> <span class="type">t_bunny_response</span> <span class="type">Response</span>;<br>
+		<span class="tab"><span class="specifier">typedef</span> <span class="type">t_bunny_event_state</span> <span class="type">EventState</span>;<br>
+		<span class="tab"><span class="specifier">typedef</span> <span class="type">t_bunny_key</span> <span class="type">Key</span>;<br>
+		}
+	</span></span></span></span></span></span></span></span></span></p>
+	<p class="fulltext">
+		Cette fonction permet de définir une fonction qui sera appellée lorsqu'un événements clavier se produira.
+	</p>
+	<h3 class="funcname">Paramètres</h3>
+	<p class="fulltext">
+		Le paramètre <span class="var">callback</span> est un pointeur sur fonction dont la fonction pointée sera appellée lorsqu'un événements clavier se produira.
+		La fonction devra être du type <span class="type">t_bunny_key</span> et recevra en paramètre le mouvement de la touche, le numéro de la touche (voir lapin_enum.h) ainsi
+		que le troisième paramètre que vous avez passé à <span class="funcname">bunny_loop</span>. Le paramètre de retour peut prendre quatre valeurs
+		différentes, correspondant au type <span class="type">t_bunny_response</span>. <span class="var">GO_ON</span> indique au programme de continuer à boucler dans bunny_loop.
+		<span class="var">EXIT_ON_SUCCESS</span>, <span class="var">EXIT_ON_ERROR</span> et <span class="var">EXIT_ON_CROSS</span> demande au programme de quitter la boucle de bunny_loop. La
+		valeur retourné par bunny_loop correspondra alors à cette valeur. <span class="var">EXIT_ON_CROSS</span> ne devrait pas être utilisé par vos fonctions: cette
+		valeur est utilisée lorsque le bouton fermer de la fenêtre est enfoncé.
+	</p>
+	<p class="goup">
+		<a href="https://cdn.local.epitech.eu/elearning/B-MUL-051/doc_lapin.htm#top">Remonter</a>
+	</p>
+</div>
+
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+<div class="medium_box" id="bunny_set_click_response">
+	<h2>Définir une réaction à une utilisation des boutons de la souris</h2>
+	<p class="prototype">C:<br>
+		<span class="type">void</span>
+		<span class="funcname">bunny_set_click_response</span>(<span class="type">t_bunny_click</span> <span class="var">callback</span>);
+	</p>
+	<p class="prototype">C++:<br>
+		<span class="type">void</span>
+		<span class="namespace">Bunny</span>::<span class="funcname">SetClickResponse</span>(<span class="namespace">Bunny</span>::<span class="type">Click</span> <span class="var">callback</span>);
+	</p>
+	<h3 class="funcname">Résumé</h3>
+	<p>
+		<span class="specifier">typedef enum</span> <span class="type">e_bunny_response</span><br>
+		{<br>
+		<span class="tab"><span class="var">EXIT_ON_ERROR</span>,<br>
+		<span class="tab"><span class="var">EXIT_ON_CROSS</span>,<br>
+		<span class="tab"><span class="var">EXIT_ON_SUCCESS</span>,<br>
+		<span class="tab"><span class="var">GO_ON</span><br>
+		} <span class="type">t_bunny_response</span>;<br>
+		<br>
+		<span class="specifier">typedef enum</span> <span class="type">e_bunny_event_state</span><br>
+		{<br>
+		<span class="tab"><span class="var">GO_DOWN</span>,<br>
+		<span class="tab"><span class="var">GO_UP</span><br>
+		} <span class="type">t_bunny_event_state</span>;<br>
+		<br>
+		<span class="specifier">typedef</span> <span class="type">t_bunny_response</span> (*<span class="type">t_bunny_click</span>)(<span class="type">t_bunny_event_state</span> <span class="var">state</span>, <span class="type">t_bunny_mousebutton</span> <span class="var">key</span>, <span class="type">void</span> *<span class="var">your_data</span>);<br>
+		<br>
+		<span class="specifier">namespace</span> Bunny<br>
+		{<br>
+		<span class="tab"><span class="specifier">typedef</span> <span class="type">t_bunny_response</span> <span class="type">Response</span>;<br>
+		<span class="tab"><span class="specifier">typedef</span> <span class="type">t_bunny_event_state</span> <span class="type">EventState</span>;<br>
+		<span class="tab"><span class="specifier">typedef</span> <span class="type">t_bunny_click</span> <span class="type">Click</span><br>
+		}
+	</span></span></span></span></span></span></span></span></span></p>
+	<p class="fulltext">
+		Cette fonction permet de définir une fonction qui sera appellée lorsqu'un événements bouton de souris se produira.
+	</p>
+	<h3 class="funcname">Paramètres</h3>
+	<p class="fulltext">
+		Le paramètre <span class="var">callback</span> est un pointeur sur fonction dont la fonction pointée sera appellée lorsqu'un événements bouton de souris se produira.
+		La fonction devra être du type <span class="type">t_bunny_click</span> et recevra en paramètre le mouvement du bouton, le numéro de celui-ci (voir lapin_enum.h) ainsi
+		que le troisième paramètre que vous avez passé à <span class="funcname">bunny_loop</span>. Le paramètre de retour peut prendre quatre valeurs
+		différentes, correspondant au type <span class="type">t_bunny_response</span>. <span class="var">GO_ON</span> indique au programme de continuer à boucler dans bunny_loop.
+		<span class="var">EXIT_ON_SUCCESS</span>, <span class="var">EXIT_ON_ERROR</span> et <span class="var">EXIT_ON_CROSS</span> demande au programme de quitter la boucle de bunny_loop. La
+		valeur retourné par bunny_loop correspondra alors à cette valeur. <span class="var">EXIT_ON_CROSS</span> ne devrait pas être utilisé par vos fonctions: cette
+		valeur est utilisée lorsque le bouton fermer de la fenêtre est enfoncé.
+	</p>
+	<p class="goup">
+		<a href="https://cdn.local.epitech.eu/elearning/B-MUL-051/doc_lapin.htm#top">Remonter</a>
+	</p>
+</div>
+
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+<div class="medium_box" id="bunny_set_move_response">
+	<h2>Définir une réaction à un déplacement de la souris</h2>
+	<p class="prototype">C:<br>
+		<span class="type">void</span>
+		<span class="funcname">bunny_set_move_response</span>(<span class="type">t_bunny_move</span> <span class="var">callback</span>);
+	</p>
+	<p class="prototype">C++:<br>
+		<span class="type">void</span>
+		<span class="namespace">Bunny</span>::<span class="funcname">SetMoveResponse</span>(<span class="namespace">Bunny</span>::<span class="type">Move</span> <span class="var">callback</span>);
+	</p>
+	<h3 class="funcname">Résumé</h3>
+	<p>
+		<span class="specifier">typedef enum</span> <span class="type">e_bunny_response</span><br>
+		{<br>
+		<span class="tab"><span class="var">EXIT_ON_ERROR</span>,<br>
+		<span class="tab"><span class="var">EXIT_ON_CROSS</span>,<br>
+		<span class="tab"><span class="var">EXIT_ON_SUCCESS</span>,<br>
+		<span class="tab"><span class="var">GO_ON</span><br>
+		} <span class="type">t_bunny_response</span>;<br>
+		<br>
+		<span class="specifier">typedef</span> <span class="type">t_bunny_response</span> (*<span class="type">t_bunny_move</span>)(<span class="specifier">const</span> <span class="type">t_bunny_position</span> *<span class="var">relative</span>, <span class="type">void</span> *<span class="var">your_data</span>);<br>
+		<br>
+		<span class="specifier">namespace</span> Bunny<br>
+		{<br>
+		<span class="tab"><span class="specifier">typedef</span> <span class="type">t_bunny_response</span> <span class="type">Response</span>;<br>
+		<span class="tab"><span class="specifier">typedef</span> <span class="type">t_bunny_move</span> <span class="type">Move</span><br>
+		}
+	</span></span></span></span></span></span></p>
+	<p class="fulltext">
+		Cette fonction permet de définir une fonction qui sera appellée lorsqu'un événements déplacement de souris se produira.
+	</p>
+	<h3 class="funcname">Paramètres</h3>
+	<p class="fulltext">
+		Le paramètre <span class="var">callback</span> est un pointeur sur fonction dont la fonction pointée sera appellée lorsqu'un événements déplacement de souris se produira.
+		La fonction devra être du type <span class="type">t_bunny_move</span> et recevra en paramètre la position relative par rapport au dernier déplacement de la souris, ainsi
+		que le troisième paramètre que vous avez passé à <span class="funcname">bunny_loop</span>. Le paramètre de retour peut prendre quatre valeurs
+		différentes, correspondant au type <span class="type">t_bunny_response</span>. <span class="var">GO_ON</span> indique au programme de continuer à boucler dans bunny_loop.
+		<span class="var">EXIT_ON_SUCCESS</span>, <span class="var">EXIT_ON_ERROR</span> et <span class="var">EXIT_ON_CROSS</span> demande au programme de quitter la boucle de bunny_loop. La
+		valeur retourné par bunny_loop correspondra alors à cette valeur. <span class="var">EXIT_ON_CROSS</span> ne devrait pas être utilisé par vos fonctions: cette
+		valeur est utilisée lorsque le bouton fermer de la fenêtre est enfoncé.
+	</p>
+	<p class="goup">
+		<a href="https://cdn.local.epitech.eu/elearning/B-MUL-051/doc_lapin.htm#top">Remonter</a>
+	</p>
+</div>
+
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+<div class="medium_box" id="bunny_set_loop_main_function">
+	<h2>Définir une réaction à l'écoulement du temps</h2>
+	<p class="prototype">C:<br>
+		<span class="type">void</span>
+		<span class="funcname">bunny_set_loop_main_function</span>(<span class="type">t_bunny_loop</span> <span class="var">callback</span>);
+	</p>
+	<p class="prototype">C++:<br>
+		<span class="type">void</span>
+		<span class="namespace">Bunny</span>::<span class="funcname">SetLoopMainFunction</span>(<span class="namespace">Bunny</span>::<span class="type">MainLoop</span> <span class="var">callback</span>);
+	</p>
+	<h3 class="funcname">Résumé</h3>
+	<p>
+		<span class="specifier">typedef enum</span> <span class="type">e_bunny_response</span><br>
+		{<br>
+		<span class="tab"><span class="var">EXIT_ON_ERROR</span>,<br>
+		<span class="tab"><span class="var">EXIT_ON_CROSS</span>,<br>
+		<span class="tab"><span class="var">EXIT_ON_SUCCESS</span>,<br>
+		<span class="tab"><span class="var">GO_ON</span><br>
+		} <span class="type">t_bunny_response</span>;<br>
+		<br>
+		<span class="specifier">typedef</span> <span class="type">t_bunny_response</span> (*<span class="type">t_bunny_loop</span>)(<span class="type">void</span> *<span class="var">your_data</span>);<br>
+		<br>
+		<span class="specifier">namespace</span> Bunny<br>
+		{<br>
+		<span class="tab"><span class="specifier">typedef</span> <span class="type">t_bunny_response</span> <span class="type">Response</span>;<br>
+		<span class="tab"><span class="specifier">typedef</span> <span class="type">t_bunny_loop</span> <span class="type">MainLoop</span><br>
+		}
+	</span></span></span></span></span></span></p>
+	<p class="fulltext">
+		Cette fonction permet de définir une fonction qui sera appellée à intervalle régulier. Cet intervalle est définie à l'appel de la fonction <span class="funcname">bunny_loop</span>.
+	</p>
+	<h3 class="funcname">Paramètres</h3>
+	<p class="fulltext">
+		Le paramètre <span class="var">callback</span> est un pointeur sur fonction dont la fonction pointée sera appellée à un intervalle défini par l'appel à la fonction <span class="funcname">bunny_loop</span>.
+		La fonction devra être du type <span class="type">t_bunny_loop</span> et recevra en paramètre le troisième paramètre que vous avez passé à
+		<span class="funcname">bunny_loop</span>. Le paramètre de retour peut prendre quatre valeurs différentes, correspondant au type <span class="type">t_bunny_response</span>.
+		<span class="var">GO_ON</span> indique au programme de continuer à boucler dans bunny_loop. <span class="var">EXIT_ON_SUCCESS</span>, <span class="var">EXIT_ON_ERROR</span> et
+		<span class="var">EXIT_ON_CROSS</span> demande au programme de quitter la boucle de bunny_loop. La valeur retourné par bunny_loop correspondra alors à cette valeur.
+		<span class="var">EXIT_ON_CROSS</span> ne devrait pas être utilisé par vos fonctions: cette valeur est utilisée lorsque le bouton fermer de la fenêtre est enfoncé.
+	</p>
+	<p class="goup">
+		<a href="https://cdn.local.epitech.eu/elearning/B-MUL-051/doc_lapin.htm#top">Remonter</a>
+	</p>
+</div>
+
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+<div class="medium_box" id="bunny_loop">
+	<h2>Lancer la gestion du temps et des événements</h2>
+	<p class="prototype">C:<br>
+		<span class="type">t_bunny_response</span>
+		<span class="funcname">bunny_loop</span>(<span class="type">t_bunny_window</span> *<span class="var">window</span>, <span class="type">unsigned int</span> <span class="var">frequency</span>, <span class="type">void</span> *<span class="var">your_data</span>);
+	</p>
+	<p class="prototype">C++:<br>
+		<span class="type">void</span>
+		<span class="namespace">Bunny</span>::<span class="funcname">SetLoopMainFunction</span>(<span class="namespace">Bunny</span>::<span class="type">MainLoop</span> *<span class="var">window</span>, <span class="type">unsigned int</span> <span class="var">frequency</span>, <span class="type">void</span> *<span class="var">your_data</span>);
+	</p>
+	<h3 class="funcname">Résumé</h3>
+	<p>
+		<span class="specifier">typedef enum</span> <span class="type">e_bunny_response</span><br>
+		{<br>
+		<span class="tab"><span class="var">EXIT_ON_ERROR</span>,<br>
+		<span class="tab"><span class="var">EXIT_ON_CROSS</span>,<br>
+		<span class="tab"><span class="var">EXIT_ON_SUCCESS</span>,<br>
+		<span class="tab"><span class="var">GO_ON</span><br>
+		} <span class="type">t_bunny_response</span>;<br>
+		<br>
+		<span class="specifier">typedef</span> <span class="type">t_bunny_response</span> (*<span class="type">t_bunny_loop</span>)(<span class="type">void</span> *<span class="var">your_data</span>);<br>
+		<br>
+		<span class="specifier">namespace</span> Bunny<br>
+		{<br>
+		<span class="tab"><span class="specifier">typedef</span> <span class="type">t_bunny_response</span> <span class="type">Response</span>;<br>
+		<span class="tab"><span class="specifier">typedef</span> <span class="type">t_bunny_loop</span> <span class="type">MainLoop</span><br>
+		}
+	</span></span></span></span></span></span></p>
+	<p class="fulltext">
+		Cette fonction permet de lancer la gestion du temps et des événements: celle-ci boucle tant que les fonctions qu'elle appelle retourne <span class="var">GO_ON</span>. Elle s'occupe
+		de maintenir une fréquence d'appel à la fonction définie par la fonction <span class="funcname">bunny_set_loop_main_function</span> et passe les paramètres
+		aux fonctions de réponse d'événements. Le troisième paramètre est passé à toutes les fonctions comme paramètre <span class="var">your_data</span>.
+	</p>
+	<h3 class="funcname">Paramètres</h3>
+	<p class="fulltext">
+		Le paramètre <span class="var">window</span> est la fenêtre pour laquelle la gestion des événements est lancée. Le second paramètre est la fréquence
+		d'appel à la fonction définie comme étant la fonction de boucle principale. Le dernier paramètre permet de passer des informations aux fonctions appellées, de telle
+		façon à rendre inutile le recour à une ou plusieurs variables globales.
+	</p>
+	<h3 class="funcname">Valeur de retour</h3>
+	<p class="fulltext">
+		La valeur de retour de <span class="funcname">bunny_loop</span> ne peut être <span class="var">GO_ON</span> car cette valeur indique de ne pas quitter la boucle.
+		Ainsi, les autres valeurs peuvent être retournées. Leur sémantique est différente: Demande de fermeture formelle (<span class="var">EXIT_ON_CROSS</span>)
+		et d'arrêt du programme, erreur (<span class="var">EXIT_ON_ERROR</span>), ou demande d'arrêt de la boucle actuelle (pas forcément du programme) (<span class="var">EXIT_ON_SUCCESS</span>).
+	</p>
+	<p class="goup">
+		<a href="https://cdn.local.epitech.eu/elearning/B-MUL-051/doc_lapin.htm#top">Remonter</a>
+	</p>
+</div>
+
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+<div class="medium_box" id="bunny_get_mouse_position">
+	<h2>Obtenir la position de la souris</h2>
+	<p class="prototype">C:<br>
+		<span class="specifier">const</span> <span class="type">t_bunny_position</span>
+		*<span class="funcname">bunny_get_mouse_position</span>(<span class="type">void</span>);
+	</p>
+	<p class="prototype">C++:<br>
+		<span class="specifier">const</span> <span class="namespace">Bunny</span>::<span class="type">Position</span>
+		*<span class="namespace">Bunny</span>::<span class="funcname">MousePosition</span>(<span class="type">void</span>);
+	</p>
+	<h3 class="funcname">Valeur de retour</h3>
+	<p class="fulltext">
+		Cette fonction retourne un pointeur sur <span class="type">t_bunny_position</span> étant toujours valide. Les valeurs dans la structure accessible
+		sont les coordonnées de la dernière position enregistré de la souris.
+	</p>
+	<p class="goup">
+		<a href="https://cdn.local.epitech.eu/elearning/B-MUL-051/doc_lapin.htm#top">Remonter</a>
+	</p>
+</div>
+
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+<div class="medium_box" id="bunny_get_mouse_button">
+	<h2>Obtenir l'état des boutons de la souris</h2>
+	<p class="prototype">C:<br>
+		<span class="specifier">const</span> <span class="type">bool</span>
+		*<span class="funcname">bunny_get_mouse_button</span>(<span class="type">void</span>);
+	</p>
+	<p class="prototype">C++:<br>
+		<span class="specifier">const</span> <span class="type">bool</span>
+		*<span class="namespace">Bunny</span>::<span class="funcname">MouseButton</span>(<span class="type">void</span>);
+	</p>
+	<h3 class="funcname">Valeur de retour</h3>
+	<p class="fulltext">
+		Cette fonction retourne un tableau de <span class="type">bool</span> de <span class="var">BMB_LAST_BUTTON</span> éléments (voir lapin_enum.h).
+		Chaque case du tableau contient l'information quand au niveau d'un bouton: vrai étant enfoncé, faux relaché.
+	</p>
+	<p class="goup">
+		<a href="https://cdn.local.epitech.eu/elearning/B-MUL-051/doc_lapin.htm#top">Remonter</a>
+	</p>
+</div>
+
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+<div class="medium_box" id="bunny_get_mouse_button">
+	<h2>Obtenir l'état des touches du clavier</h2>
+	<p class="prototype">C:<br>
+		<span class="specifier">const</span> <span class="type">bool</span>
+		*<span class="funcname">bunny_get_keyboard</span>(<span class="type">void</span>);
+	</p>
+	<p class="prototype">C++:<br>
+		<span class="specifier">const</span> <span class="type">bool</span>
+		*<span class="namespace">Bunny</span>::<span class="funcname">Keyboard</span>(<span class="type">void</span>);
+	</p>
+	<h3 class="funcname">Valeur de retour</h3>
+	<p class="fulltext">
+		Cette fonction retourne un tableau de <span class="type">bool</span> de <span class="var">BKS_LAST_KEY</span> éléments (voir lapin_enum.h).
+		Chaque case du tableau contient l'information quand au niveau d'une touche: vrai étant enfoncée, faux relachée.
+	</p>
+	<p class="goup">
+		<a href="https://cdn.local.epitech.eu/elearning/B-MUL-051/doc_lapin.htm#top">Remonter</a>
+	</p>
+</div>
+
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+<!--div class="medium_box" id="snd">
+
+</div>
+<div class="medium_box" id="cnf">
+
+</div-->
+
+	
+
+</body></html>

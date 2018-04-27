@@ -1,0 +1,51 @@
+Version 1.4:
+ - Mise à jour de fake_install.sh.
+
+ - Ajout d'un champ "mod" dans le type t_color.
+
+Version 1.3:
+- Ajout de la fonction bunny_start_style permettant de definir plus finement
+le style des fenetres.
+
+- Retrait des entiers non signes dans les tailles des images et autres -> c'est
+inutile et handicapant lors des comparaisons
+
+- Mise à jour de la documentation (Ajout d'instructions pour l'installation)
+
+- Mise à jour de fake_install.sh
+
+Version 1.2:
+- Ajout de la macro M_PI afin de respecter la norme des lapins noirs invectivant
+l'usage de -ansi -pedantic
+
+- Ajout de bunny_malloc, bunny_free, bunny_calloc et bunny_realloc ainsi
+que de fonctions de limitation memoire et de verification de coherence.
+
+- Le flag -DLAPIN_ALLOCATOR_DEACTIVATED permet de supprimer les appels
+aux allocateurs de la lib lapin (sauf ceux qui sont compile dans
+bunny_new_pixelarray, evidemment) en les remplacant par ceux du systeme
+
+- Le flag -DLAPIN_ALLOCATOR_OVERLOAD permet de supprimer les appels
+aux allocateurs du systeme pour ls remplacer par ceux de la lib lapin
+
+- Ajout d'une enumeration pour la gestion des touches.
+
+Version 1.1:
+- Ajout de pointeurs sur fonctions initialement vide
+permettant d'appeler ses propres fonctions en passant
+par les fonctions de dessins predefinies par la lib.
+
+- Correction de bunny_fill dans le cas d'une image
+en memoire graphique
+
+- Les composantes de couleurs sont maintenant correctes
+et identique en acces manuel ou graphique
+
+- Correction de blit dans le cas d'une image manuelle
+
+- Les images manuelles sont remplies de rose par defaut
+
+- Correction de la directive de liaison dans le fichier
+en-tete et details de compilation supplementaires
+
+- Modification des constantes de couleur
